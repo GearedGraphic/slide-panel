@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+
+div:not(#div1) {
+    display: none;
+}
+span.close{ cursor:pointer; position:absolute; right:0px}
+
+.slider{  width:400px; right:50px; background:#fff; height:600px; display:block; position:fixed; bottom:0px; z-index:9998; box-shadow:1px 0px 20px  #000000;  }
+span.close{ cursor:pointer; position:absolute; right:10px; top:10px}
+span.close:hover{ opacity: .7}
+#content{ padding:50px}
+ul.links{ list-style-type:none}
+.links a{ color:#FFF} 
